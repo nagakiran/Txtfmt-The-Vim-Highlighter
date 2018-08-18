@@ -1114,6 +1114,7 @@ endfu
 " nonzero	- error
 " NOTE: Function will echoerr to user
 fu! s:Def_map(mode, lhs1, lhs2, rhs2)
+    return 0
 	" TODO - Perhaps eventually support operator mode if needed
 	if a:mode=='n'
 		let cmd1 = 'nmap'
